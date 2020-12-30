@@ -1,0 +1,95 @@
+body > div.body-item.main > div.main-item.register-input {
+    width: 35rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.register-input > h1.register-input-item.title {
+    cursor: default;
+    font-size: 2.25rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.register-input > div.register-input-item.step {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+body > div.body-item.main > div.main-item.register-input > div.register-input-item.step > div.step-item {
+    width: 0.55rem;
+    height: 0.55rem;
+    background-color: #cacaca;
+    border-radius: 50%;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.register-input > div.register-input-item.step > div.step-item.selected {
+    background-color: #a0a0a0;
+}
+
+body > div.body-item.main > div.main-item.register-input > div.register-input-item.step > div.step-item:not(:last-child) {
+    margin-right: 0.65rem;
+}
+
+body > div.body-item.main > div.main-item.register-input > h2.register-input-item.step {
+    cursor: default;
+    font-size: 1.75rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.register-input > form.register-input-item.input-container {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.register-input > form.register-input-item.input-container > label.input-container-item {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+body > div.body-item.main > div.main-item.register-input > form.register-input-item.input-container > label.input-container-item.horizontal {
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+body > div.body-item.main > div.main-item.register-input > form.register-input-item.input-container > label.input-container-item.horizontal > * {
+    flex: 1;
+}
+
+body > div.body-item.main > div.main-item.register-input > form.register-input-item.input-container > label.input-container-item.horizontal > *:not(:last-child) {
+    margin-right: 0.75rem;
+}
+
+body > div.body-item.main > div.main-item.register-input > form.register-input-item.input-container > label.input-container-item > input,
+body > div.body-item.main > div.main-item.register-input > form.register-input-item.input-container > label.input-container-item > select {
+    width: 100%;
+}
+
+body > div.body-item.main > div.main-item.register-input > form.register-input-item.input-container > div.input-container-item.buttons {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+body > div.body-item.main > div.main-item.register-input > form.register-input-item.input-container > div.input-container-item.buttons > input.buttons-item {
+    padding: 1rem 3rem;
+}
+
+body > div.body-item.main > div.main-item.register-input > form.register-input-item.input-container > div.input-container-item.buttons > input.buttons-item:not(:last-child) {
+    margin-right: 1.5rem;
+}

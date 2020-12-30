@@ -1,0 +1,80 @@
+body > div.body-item.main > div.main-item.rent-container > ul.rent-container-item.menu {
+    align-items: center;
+    border: 0.0625rem solid #cacaca;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    margin-bottom: 2.5rem;
+    padding: 1.125rem 2rem;
+}
+
+body > div.body-item.main > div.main-item.rent-container > div.rent-container-item.title {
+    cursor: default;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+body > div.body-item.main > div.main-item.rent-container > div.rent-container-item.summary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+body > div.body-item.main > div.main-item.rent-container > div.rent-container-item.summary > ul.summary-item.list {
+    list-style: none;
+}
+
+body > div.body-item.main > div.main-item.rent-container > div.rent-container-item.summary > ul.summary-item.list > li.list-item {
+    box-sizing: border-box;
+    padding: 0.5rem 0;
+}
+
+body > div.body-item.main > div.main-item.rent-container > div.rent-container-item.summary > ul.summary-item.list > li.list-item:nth-child(1) {
+    border-bottom: 0.0625rem solid #cacaca;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem !important;
+}
+
+body > div.body-item.main > div.main-item.rent-container > div.rent-container-item.summary > ul.summary-item.list > li.list-item:not(:last-child) {
+    margin-bottom: 0.125rem;
+}
+
+body > div.body-item.main > div.main-item.rent-container > div.rent-container-item.summary > ul.summary-item.list > li.list-item:not(:nth-child(1)) {
+    border-bottom: 0.0625rem solid #f0f0f0;
+    margin: 0.5rem 0.5rem;
+}
+
+body > div.body-item.main > div.main-item.rent-container > div.rent-container-item.summary > ul.summary-item.list > li.list-item > span:nth-child(1) {
+    width: 5rem;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+body > div.body-item.main > div.main-item.rent-container > div.rent-container-item.total {
+    align-items: center;
+    background-color: #f68121;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+}
+
+body > div.body-item.main > div.main-item.rent-container > div.rent-container-item.total > div.total-item:nth-child(2) {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+body > div.body-item.main > div.main-item.rent-container > div.rent-container-item.total > div.total-item.spring {
+    flex: 1;
+}
+
+body > div.body-item.main > div.main-item.rent-container > div.rent-container-item.total > div.total-item:not(:last-child) {
+    margin-right: 1rem;
+}

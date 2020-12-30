@@ -1,0 +1,53 @@
+<div class="main-item register-input">
+    <h1 class="register-input-item title">회원가입</h1>
+    <div class="register-input-item step">
+        <div class="step-item"></div>
+        <div class="step-item selected"></div>
+        <div class="step-item"></div>
+    </div>
+    <h2 class="register-input-item step">회원정보 입력</h2>
+    <form class="register-input-item input-container">
+        <label class="input-container-item label">
+            <input class="label-item object-common-input" name="email" type="email" placeholder="이메일">
+        </label>
+        <label class="input-container-item label">
+            <input class="label-item object-common-input" name="password" type="password" placeholder="비밀번호">
+        </label>
+        <label class="input-container-item label">
+            <input class="label-item object-common-input" name="password-check" type="password" placeholder="비밀번호 재입력">
+        </label>
+        <label class="input-container-item label">
+            <input class="label-item object-common-input" name="real-name" type="text" placeholder="실명">
+        </label>
+        <label class="input-container-item label horizontal">
+            <select class="label-item object-common-combo" name="telephone-company">
+                <option value="KT" selected>KT</option>
+                <option value="SKT">SKT</option>
+                <option value="LGU+">LGU+</option>
+            </select>
+            <select class="label-item object-common-combo" name="contact-first">
+                <option value="010" selected>010</option>
+            </select>
+            <input class="label-item object-common-input" name="contact-second" type="text" placeholder="연락처">
+            <input class="label-item object-common-input" name="contact-third" type="text" placeholder="연락처">
+        </label>
+        <label class="input-container-item label">
+            <input class="label-item object-common-input" name="address" type="text" placeholder="주소">
+        </label>
+        <label class="input-container-item label horizontal">
+            <select class="label-item object-common-combo" name="license_type">
+                <option value="1N" selected>1종 보통</option>
+                <option value="2A">2종 자동</option>
+                <option value="2M">2종 수동</option>
+                <option value="2Y">2종 소형</option>
+                <option value="ET">기타</option>
+            </select>
+            <input class="label-item object-common-input" name="license_number" type="text" placeholder="면허번호">
+            <input class="label-item object-common-input" name="license_issue_date" type="date" placeholder="면허발급일자">
+        </label>
+        <div class="input-container-item buttons">
+            <input type="button" class="buttons-item cancel object-common-button" value="처음으로">
+            <input type="submit" class="buttons-item register object-common-button prop-red" value="회원가입">
+        </div>
+    </form>
+</div>

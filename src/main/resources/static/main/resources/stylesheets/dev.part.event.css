@@ -1,0 +1,56 @@
+body > div.body-item.main > div.main-item.event-container > ul.event-container-item.menu {
+    align-items: center;
+    border: 0.0625rem solid #cacaca;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    margin-bottom: 2.5rem;
+    padding: 1.125rem 2rem;
+}
+
+body > div.body-item.main > div.main-item.event-container > div.event-container-item.title {
+    cursor: default;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+body > div.body-item.main > div.main-item.event-container > div.event-container-item.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+}
+
+body > div.body-item.main > div.main-item.event-container > div.event-container-item.grid > div.grid-item {
+    align-items: flex-start;
+    background-color: #ffffff;
+    border: 0.0625rem solid #cacaca;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.event-container > div.event-container-item.grid > div.grid-item > img.grid-item-image {
+    top: -2rem;
+    left: -2rem;
+    width: calc(100% + 4rem);
+    height: 15rem;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.event-container > div.event-container-item.grid > div.grid-item > div.grid-item-title {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+body > div.body-item.main > div.main-item.event-container > div.event-container-item.grid > div.grid-item > div.grid-item-duration {
+    color: #808080;
+}

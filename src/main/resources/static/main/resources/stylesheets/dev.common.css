@@ -1,0 +1,36 @@
+html {
+    color: #000000;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.875rem;
+    justify-content: flex-start;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+    position: relative;
+}
+
+body.preload, body.preload * {
+    transition: none !important;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font: inherit;
+    margin: 0;
+    padding: 0;
+}

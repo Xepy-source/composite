@@ -1,0 +1,79 @@
+body > div.body-item.main > div.main-item.branch > ul.branch-item.menu {
+    align-items: center;
+    border: 0.0625rem solid #cacaca;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    margin-bottom: 2.5rem;
+    padding: 1.125rem 2rem;
+}
+
+body > div.body-item.main > div.main-item.branch > div.branch-item.title {
+    cursor: default;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+body > div.body-item.main > div.main-item.branch > ul.branch-item.menu {
+    align-items: center;
+    border: 0.0625rem solid #cacaca;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    margin-bottom: 1.5rem;
+    padding: 1.125rem 2rem;
+}
+
+body > div.body-item.main > div.main-item.branch > ul.branch-item.menu > li.menu-item {
+    cursor: pointer;
+}
+
+body > div.body-item.main > div.main-item.branch > ul.branch-item.menu > li.menu-item:hover {
+    color: #f68121;
+}
+
+body > div.body-item.main > div.main-item.branch > ul.branch-item.menu > li.menu-item:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+body > div.body-item.main > div.main-item.branch > div.branch-item.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+}
+
+body > div.body-item.main > div.main-item.branch > div.branch-item.grid > div.grid-item {
+    border: 0.0625rem solid #cacaca;
+    cursor: pointer;
+}
+
+body > div.body-item.main > div.main-item.branch > div.branch-item.grid > div.grid-item > div.grid-item-title {
+    border-bottom: 0.0625rem solid #cacaca;
+    font-size: 1.125rem;
+    padding: 1.25rem 1.75rem;
+}
+
+body > div.body-item.main > div.main-item.branch > div.branch-item.grid > div.grid-item > div.grid-item-info {
+    font-size: 1rem;
+    padding: 1.25rem 1.75rem;
+}
+
+body > div.body-item.main > div.main-item.branch > div.branch-item.grid > div.grid-item > div.grid-item-info > div.grid-item-info-item {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    word-break: keep-all;
+}
+
+body > div.body-item.main > div.main-item.branch > div.branch-item.grid > div.grid-item > div.grid-item-info > div.grid-item-info-item:not(:last-child) {
+    margin-bottom: 0.25rem;
+}
+
+body > div.body-item.main > div.main-item.branch > div.branch-item.grid > div.grid-item > div.grid-item-info > div.grid-item-info-item > a {
+    font-weight: 400;
+    margin-right: 1rem;
+}

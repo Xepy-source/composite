@@ -1,0 +1,59 @@
+body > div.body-item.forward {
+    right: 3rem;
+    bottom: 2.5rem;
+    align-items: center;
+    background-color: #ffffffea;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem 0.0625rem #50505075;
+    cursor: default;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+    justify-content: center;
+    opacity: 0;
+    padding: 1rem 1.5rem;
+    position: fixed;
+    pointer-events: none;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(.645, .045, .355, 1);
+    user-select: none;
+    z-index: 8;
+}
+
+body > div.body-item.forward.visible {
+    bottom: 3rem;
+    opacity: 1;
+    pointer-events: all;
+}
+
+body > div.body-item.forward > div.forward-item.icon {
+    width: 1rem;
+    height: 1rem;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+    animation-name: anim-forward-icon;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+    background-image: url("../images/forward.icon.background-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 1rem;
+}
+
+body > div.body-item.forward.visible > div.forward-item.icon {
+    animation-play-state: running;
+}
+
+body > div.body-item.forward > div.forward-item.text {
+    line-height: 100%;
+}
+
+@keyframes anim-forward-icon {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

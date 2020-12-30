@@ -1,0 +1,200 @@
+body > div.body-item.copyright {
+    width: 100%;
+    background-color: #333333;
+    color: #ffffff;
+    position: relative;
+}
+
+body > div.body-item.copyright > div.copyright-item {
+    width: 100%;
+    position: relative;
+}
+
+body > div.body-item.copyright > div.copyright-item:not(:last-child) {
+    border-bottom: 0.0625rem solid #555555;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content {
+    left: 50%;
+    width: 62.5rem;
+    position: relative;
+    transform: translateX(-50%);
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.contact {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.contact > div.contact-item.contact {
+    align-items: center;
+    color: #f68121;
+    cursor: default;
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.contact > div.contact-item.contact > div.contact-item.icon {
+    width: 1.75rem;
+    height: 1.75rem;
+    background-color: #f68121;
+    background-image: url("../images/copyright.contact.contact.icon.background-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 66%;
+    border-radius: 50%;
+    margin-right: 0.75rem;
+    position: relative;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.contact > div.contact-item.hour {
+    align-items: center;
+    color: #cacaca;
+    cursor: default;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+    justify-content: flex-start;
+    line-height: 100%;
+    flex: 1;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.contact > div.contact-item.hour > div.hour-item.line {
+    width: 0.0625rem;
+    height: 0.75rem;
+    background-color: #808080;
+    margin: 0 0.5rem;
+    position: relative;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.contact > div.contact-item.family {
+    align-items: center;
+    border-right: 0.0625rem solid #555555;
+    border-left: 0.0625rem solid #555555;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 1.5rem;
+    user-select: none;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.contact > div.contact-item.family > div.family-item.text {
+    margin-right: 3rem;
+    padding: 1rem 0;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.contact > div.contact-item.family > div.family-item.icon {
+    width: 1rem;
+    height: 1rem;
+    background-image: url("../images/copyright.contact.family.icon.background-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.copyright {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.copyright > div.copyright-item.logo {
+    margin-right: 4rem;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.copyright > div.copyright-item.logo > img.logo-item.image {
+    width: 6rem;
+    filter: brightness(0.5);
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.copyright > div.copyright-item.info {
+    flex: 1;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.copyright > div.copyright-item.info > *.info-item:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.copyright > div.copyright-item.info > ul.info-item.disclaimer {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    user-select: none;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.copyright > div.copyright-item.info > ul.info-item.disclaimer > li.disclaimer-item {
+    cursor: pointer;
+    font-size: 0.8rem;
+    text-align: center;
+    word-break: keep-all;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.copyright > div.copyright-item.info > ul.info-item.disclaimer > li.disclaimer-item:not(:last-child) {
+    margin-right: 1rem;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.copyright > div.copyright-item.info > div.info-item.address {
+    color: #a0a0a0;
+    align-items: center;
+    cursor: default;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    justify-content: flex-start;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.copyright > div.copyright-item.info > div.info-item.address > div.address-item.line {
+    width: 0.0625rem;
+    height: 0.75rem;
+    background-color: #808080;
+    margin: 0 0.5rem;
+    position: relative;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.copyright > div.copyright-item.info > div.info-item.copyright {
+    color: #808080;
+    cursor: default;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.copyright > div.copyright-item.social {
+    right:0;
+    bottom: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.copyright > div.copyright-item.social > a.social-item {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    filter: brightness(0.5);
+    position: relative;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.copyright > div.copyright-item.social > a.social-item:hover {
+    filter: brightness(0.75);
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.copyright > div.copyright-item.social > a.social-item:not(:last-child) {
+    margin-right: 0.45rem;
+}
+
+body > div.body-item.copyright > div.copyright-item > div.copyright-item-content.copyright > div.copyright-item.social > a.social-item > img.social-item-image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}

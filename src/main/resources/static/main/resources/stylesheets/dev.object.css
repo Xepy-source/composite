@@ -1,0 +1,77 @@
+input.object-common-input[type=text],
+input.object-common-input[type=email],
+input.object-common-input[type=password],
+input.object-common-input[type=number],
+input.object-common-input[type=date],
+select.object-common-combo,
+textarea.object-common-input {
+    background-color: #ffffff;
+    border: 0.0625rem solid #cacaca;
+    box-sizing: border-box;
+    color: #000000;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 300;
+    margin: 0;
+    outline: none;
+    padding: 0.75rem 1.25rem;
+}
+
+input.object-common-check[type=checkbox] {
+    top: 0.0625rem;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+input.object-common-check[type=checkbox] + span {
+    line-height: 100%;
+    margin-left: 0.3rem;
+    user-select: none;
+}
+
+input.object-common-button[type=button],
+input.object-common-button[type=submit],
+input.object-common-button[type=reset] {
+    background-color: #808080;
+    border: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 300;
+    outline: none;
+    padding: 0.75rem 1.5rem;
+}
+
+input.object-common-button[type=button]:hover,
+input.object-common-button[type=submit]:hover,
+input.object-common-button[type=reset]:hover {
+    background-color: #707070;
+}
+
+input.object-common-button[type=button]:active,
+input.object-common-button[type=submit]:active,
+input.object-common-button[type=reset]:active {
+    background-color: #606060;
+}
+
+input.object-common-button.prop-red[type=button],
+input.object-common-button.prop-red[type=submit],
+input.object-common-button.prop-red[type=reset] {
+    background-color: #eb444c;
+    color: #ffffff;
+}
+
+input.object-common-button.prop-red[type=button]:hover,
+input.object-common-button.prop-red[type=submit]:hover,
+input.object-common-button.prop-red[type=reset]:hover {
+    background-color: #db343c;
+}
+
+input.object-common-button.prop-red[type=button]:active,
+input.object-common-button.prop-red[type=submit]:active,
+input.object-common-button.prop-red[type=reset]:active {
+    background-color: #cb242c;
+}

@@ -1,0 +1,61 @@
+body > div.body-item.main > div.main-item.login {
+    width: 25rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.login > h1.login-item.title {
+    cursor: default;
+    font-size: 2.25rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.login > form.login-item.form {
+    width: 100%;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+body > div.body-item.main > div.main-item.login > form.login-item.form > *.form-item:not(:last-child) {
+    margin-bottom: 0.625rem;
+}
+
+body > div.body-item.main > div.main-item.login > form.login-item.form > label.form-item.label {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.login > form.login-item.form > label.form-item.label > input.label-item[type=email],
+body > div.body-item.main > div.main-item.login > form.login-item.form > label.form-item.label > input.label-item[type=password]{
+    width: 100%;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.login > form.login-item.form > input.form-item.button {
+    width: 100%;
+    margin-top: 1rem;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.login > ul.login-item.option {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+body > div.body-item.main > div.main-item.login > ul.login-item.option > li.option-item {
+    cursor: pointer;
+}
+
+body > div.body-item.main > div.main-item.login > ul.login-item.option > li.option-item:not(:last-child) {
+    margin-right: 1.5rem;
+}

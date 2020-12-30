@@ -1,0 +1,139 @@
+body > div.body-item.main > div.main-item.register {
+    width: 62.5rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.register > h1.register-item.title {
+    cursor: default;
+    font-size: 2.25rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.register > div.register-item.step {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+body > div.body-item.main > div.main-item.register > div.register-item.step > div.step-item {
+    width: 0.55rem;
+    height: 0.55rem;
+    background-color: #cacaca;
+    border-radius: 50%;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.register > div.register-item.step > div.step-item.selected {
+    background-color: #a0a0a0;
+}
+
+body > div.body-item.main > div.main-item.register > div.register-item.step > div.step-item:not(:last-child) {
+    margin-right: 0.65rem;
+}
+
+body > div.body-item.main > div.main-item.register > h2.register-item.step {
+    cursor: default;
+    font-size: 1.75rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.register > div.register-item.term-container {
+    width: 100%;
+    border: 0.0625rem solid #cacaca;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.register > div.register-item.term-container > *:not(:last-child) {
+    border-bottom: 0.0625rem solid #cacaca;
+}
+
+body > div.body-item.main > div.main-item.register > div.register-item.term-container > div.term-container-item-title {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    font-weight: 400;
+    justify-content: center;
+    padding: 0.75rem 1.25rem;
+    user-select: none;
+}
+
+body > div.body-item.main > div.main-item.register > div.register-item.term-container > div.term-container-item-title > div.term-container-item-title-text {
+    flex: 1;
+}
+
+body > div.body-item.main > div.main-item.register > div.register-item.term-container > div.term-container-item-title > div.term-container-item-title-text > span.term-container-item-title-text-emp {
+    color: #db343c;
+}
+
+body > div.body-item.main > div.main-item.register > div.register-item.term-container > div.term-container-item-title > div.term-container-item-title-check > label.term-container-item-title-check-label {
+    cursor: pointer;
+}
+
+body > div.body-item.main > div.main-item.register > div.register-item.term-container > div.term-container-item-title > div.term-container-item-title-check > label.term-container-item-title-check-label > input.term-container-item-title-check-label-input {
+    display: none;
+}
+
+body > div.body-item.main > div.main-item.register > div.register-item.term-container > div.term-container-item-title > div.term-container-item-title-check > label.term-container-item-title-check-label > input.term-container-item-title-check-label-input:checked + span.term-container-item-title-check-label-shape {
+    background-color: #f68121;
+}
+
+body > div.body-item.main > div.main-item.register > div.register-item.term-container > div.term-container-item-title > div.term-container-item-title-check > label.term-container-item-title-check-label > span.term-container-item-title-check-label-shape {
+    width: 1.75rem;
+    height: 1.75rem;
+    background-color: #e0e0e0;
+    background-image: url("../images/main.register.term-container-item-title-check-label-shape.background-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    transition-duration: 250ms;
+}
+
+body > div.body-item.main > div.main-item.register > div.register-item.term-container > div.term-container-item-content {
+    height: 10rem;
+    overflow-x: fragments;
+    overflow-y: scroll;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.register > div.register-item.term-container > div.term-container-item-content > pre.term-container-item-content-text {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 0.8rem;
+    font-weight: inherit;
+    padding: 0.75rem 1.25rem;
+    position: relative;
+    white-space: pre-wrap;
+}
+
+body > div.body-item.main > div.main-item.register > div.register-item.buttons {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+body > div.body-item.main > div.main-item.register > div.register-item.buttons > input.buttons-item {
+    padding: 1rem 3rem;
+}
+
+body > div.body-item.main > div.main-item.register > div.register-item.buttons > input.buttons-item:not(:last-child) {
+    margin-right: 1.5rem;
+}

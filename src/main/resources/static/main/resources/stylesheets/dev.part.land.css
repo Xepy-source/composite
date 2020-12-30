@@ -1,0 +1,245 @@
+body > div.body-item.main > div.main-item.land {
+    width: 100%;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.land > div.land-item.book {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body > div.body-item.main > div.main-item.land > div.land-item.book > div.book-item.image {
+    top: -3rem;
+    left: calc(31.25rem - 50vw);
+    width: 100vw;
+    height: 30rem;
+    background-image: url("../images/main.land.book.image.background-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+body > div.body-item.main > div.main-item.land > div.land-item.book > div.book-item.title {
+    color: #ffffff;
+    cursor: default;
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+body > div.body-item.main > div.main-item.land > div.land-item.book > div.book-item.subtitle {
+    color: #ffffff;
+    cursor: default;
+    font-size: 1.125rem;
+    text-align: center;
+}
+
+body > div.body-item.main > div.main-item.land > div.land-item.book > div.book-item.content {
+    width: 62.5rem;
+    align-items: center;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3.5rem;
+    padding: 2rem;
+}
+
+body > div.body-item.main > div.main-item.land > div.land-item.book > div.book-item.content > *.content-item {
+    box-sizing: border-box;
+}
+
+body > div.body-item.main > div.main-item.land > div.land-item.book > div.book-item.content > *.content-item:not(:last-child) {
+    margin-right: 4rem;
+}
+
+body > div.body-item.main > div.main-item.land > div.land-item.book > div.book-item.content > div.content-item.sort {
+    background-color: #f68121;
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 1.25rem 3rem;
+}
+
+body > div.body-item.main > div.main-item.land > div.land-item.book > div.book-item.content > *.content-item.datetime > label.datetime-item {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+body > div.body-item.main > div.main-item.land > div.land-item.book > div.book-item.content > *.content-item.datetime > label.datetime-item:not(:last-child) {
+    margin-bottom: 0.33rem;
+}
+
+body > div.body-item.main > div.main-item.land > div.land-item.book > div.book-item.content > *.content-item.datetime > label.datetime-item > *:not(:last-child) {
+    margin-right: 0.5rem;
+}
+
+body > div.body-item.main > div.main-item.land > div.land-item.book > div.book-item.content > *.content-item.datetime > label.datetime-item > input,
+body > div.body-item.main > div.main-item.land > div.land-item.book > div.book-item.content > *.content-item.datetime > label.datetime-item > select {
+    border: none;
+    border-bottom: 0.0625rem solid #cacaca;
+    font: inherit;
+    margin: 0;
+    outline: none;
+    padding: 0.75rem 1.5rem;
+}
+
+body > div.body-item.main > div.main-item.land > div.land-item.book > div.book-item.content > *.content-item.total {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body > div.body-item.main > div.main-item.land > div.land-item.book > div.book-item.content > *.content-item.total > div.total-item.title {
+    color: #f68121;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0.125rem;
+    text-align: center;
+}
+
+body > div.body-item.main > div.main-item.land > div.land-item.book > div.book-item.content > *.content-item.total > div.total-item.datetime {
+    font-size: 2rem;
+    margin-bottom: 1.375rem;
+}
+
+body > div.body-item.main > div.main-item.service {
+    margin-top: 8rem;
+    margin-bottom: 4.625rem;
+}
+
+body > div.body-item.main > div.main-item.service > div.service-item.title {
+    cursor: default;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+body > div.body-item.main > div.main-item.service > div.service-item.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.25rem;
+}
+
+body > div.body-item.main > div.main-item.service > div.service-item.buttons > div.buttons-item {
+    align-items: center;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body > div.body-item.main > div.main-item.service > div.service-item.buttons > div.buttons-item > div.buttons-item-shape {
+    width: 10rem;
+    height: 10rem;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    margin-bottom: 0.95rem;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.service > div.service-item.buttons > div.buttons-item:hover > div.buttons-item-shape {
+    background-color: #f68121;
+}
+
+body > div.body-item.main > div.main-item.service > div.service-item.buttons > div.buttons-item > div.buttons-item-shape > img.buttons-item-shape-image {
+    top: 50%;
+    left: 50%;
+    width: 35%;
+    height: 35%;
+    position: relative;
+    transform: translate(-50%, -50%);
+}
+
+body > div.body-item.main > div.main-item.service > div.service-item.buttons > div.buttons-item:hover > div.buttons-item-shape > img.buttons-item-shape-image {
+    filter: brightness(300%);
+}
+
+body > div.body-item.main > div.main-item.service > div.service-item.buttons > div.buttons-item > div.buttons-item-subtitle {
+    color: #808080;
+    font-size: 0.95rem;
+    font-weight: 400;
+    margin-bottom: 0.2rem;
+}
+
+body > div.body-item.main > div.main-item.service > div.service-item.buttons > div.buttons-item > div.buttons-item-title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    word-break: keep-all;
+}
+
+body > div.body-item.main > div.main-item.event {
+    left: calc(31.25rem - 50vw);
+    width: 100vw;
+    background-color: #f0f0f0;
+    margin-bottom: 3rem;
+    padding: 3rem 0;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.event > div.event-item.content {
+    left: 50%;
+    width: 62.5rem;
+    position: relative;
+    transform: translateX(-50%);
+}
+
+body > div.body-item.main > div.main-item.event > div.event-item.content > div.content-item.title {
+    cursor: default;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+body > div.body-item.main > div.main-item.event > div.event-item.content > div.content-item.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+}
+
+body > div.body-item.main > div.main-item.event > div.event-item.content > div.content-item.grid > div.grid-item {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+
+body > div.body-item.main > div.main-item.notice > ul.notice-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3rem;
+    grid-row-gap: 0.5rem;
+    list-style: none;
+}
+
+body > div.body-item.main > div.main-item.notice > ul.notice-item > li.list-item {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+body > div.body-item.main > div.main-item.notice > ul.notice-item > li.list-item > span.list-item-title {
+    color: #606060;
+    flex: 1;
+    font-weight: 400;
+}
+
+body > div.body-item.main > div.main-item.notice > ul.notice-item > li.list-item:hover > span.list-item-title {
+    text-decoration: underline;
+}
+
+body > div.body-item.main > div.main-item.notice > ul.notice-item > li.list-item > span.list-item-date {
+    color: #a0a0a0;
+}

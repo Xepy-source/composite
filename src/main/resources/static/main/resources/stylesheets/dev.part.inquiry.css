@@ -1,0 +1,118 @@
+body > div.body-item.main > div.main-item.inquiry > ul.inquiry-item.menu {
+    align-items: center;
+    border: 0.0625rem solid #cacaca;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    margin-bottom: 1.5rem;
+    padding: 1.125rem 2rem;
+}
+
+body > div.body-item.main > div.main-item.inquiry > ul.inquiry-item.menu > li.menu-item {
+    cursor: pointer;
+}
+
+body > div.body-item.main > div.main-item.inquiry > ul.inquiry-item.menu > li.menu-item:hover {
+    color: #f68121;
+}
+
+body > div.body-item.main > div.main-item.inquiry > ul.inquiry-item.menu > li.menu-item:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+body > div.body-item.main > div.main-item.inquiry > div.inquiry-item.title {
+    cursor: default;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+body > div.body-item.main > div.main-item.inquiry > form.inquiry-item.form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.inquiry > form.inquiry-item.form > label.form-item.label {
+    width: 100%;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.inquiry > form.inquiry-item.form > label.form-item.label:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+body > div.body-item.main > div.main-item.inquiry > form.inquiry-item.form > label.form-item.label > input,
+body > div.body-item.main > div.main-item.inquiry > form.inquiry-item.form > label.form-item.label > textarea {
+    width: 100%;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.inquiry > form.inquiry-item.form > label.form-item.label > textarea {
+    max-height: 30rem;
+    min-height: 10rem;
+    height: 20rem;
+    resize: vertical;
+}
+
+body > div.body-item.main > div.main-item.inquiry > form.inquiry-item.form > div.form-item.buttons {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+body > div.body-item.main > div.main-item.inquiry > div.inquiry-item.my {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.inquiry > div.inquiry-item.my > div.my-item:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+body > div.body-item.main > div.main-item.inquiry > div.inquiry-item.my > div.my-item {
+    width: 100%;
+    align-items: center;
+    border: 0.0625rem solid #dadada;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.inquiry > div.inquiry-item.my > div.my-item > div.my-item-q {
+    width: 100%;
+    align-items: flex-start;
+    background-color: #fafafa;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 2rem;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.inquiry > div.inquiry-item.my > div.my-item > div.my-item-q > div.my-item-q-title {
+    color: #808080;
+    flex: 1;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+body > div.body-item.main > div.main-item.inquiry > div.inquiry-item.my > div.my-item > div.my-item-a {
+    width: 100%;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    padding: 2rem;
+    position: relative;
+}

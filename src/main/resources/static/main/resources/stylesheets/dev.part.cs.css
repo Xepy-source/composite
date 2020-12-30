@@ -1,0 +1,163 @@
+body > div.body-item.main > div.main-item.cs > ul.cs-item.menu {
+    align-items: center;
+    border: 0.0625rem solid #cacaca;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    margin-bottom: 1.5rem;
+    padding: 1.125rem 2rem;
+}
+
+body > div.body-item.main > div.main-item.cs > ul.cs-item.menu > li.menu-item {
+    cursor: pointer;
+}
+
+body > div.body-item.main > div.main-item.cs > ul.cs-item.menu > li.menu-item:hover {
+    color: #f68121;
+}
+
+body > div.body-item.main > div.main-item.cs > ul.cs-item.menu > li.menu-item:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+body > div.body-item.main > div.main-item.cs > div.cs-item.title {
+    cursor: default;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+body > div.body-item.main > div.main-item.cs > form.cs-item.search {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+body > div.body-item.main > div.main-item.cs > form.cs-item.search > div.search-item.spring {
+    flex: 1;
+}
+
+body > div.body-item.main > div.main-item.cs > form.cs-item.search > label.search-item.content {
+    height: 2.5rem;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.cs > form.cs-item.search > label.search-item.content > * {
+    height: 100%;
+    padding: 0.5rem 1rem;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.cs > table.cs-item.notice {
+    width: 100%;
+    border-collapse: collapse;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.cs > table.cs-item.notice > thead {
+    border-top: 0.0625rem solid #a0a0a0;
+}
+
+body > div.body-item.main > div.main-item.cs > table.cs-item.notice > thead > tr {
+}
+
+body > div.body-item.main > div.main-item.cs > table.cs-item.notice > thead > tr > th {
+    background-color: #fafafa;
+    border-top: 0.0625rem solid #cacaca;
+    border-bottom: 0.0625rem solid #eaeaea;
+    font-weight: 300;
+    padding: 0.75rem 0;
+    text-align: center;
+}
+
+body > div.body-item.main > div.main-item.cs > table.cs-item.notice > thead > tr > th:nth-child(1) {
+    width: 6rem;
+}
+
+body > div.body-item.main > div.main-item.cs > table.cs-item.notice > thead > tr > th:nth-child(2) {
+    width: 12rem;
+}
+
+body > div.body-item.main > div.main-item.cs > table.cs-item.notice > thead > tr > th:nth-child(4) {
+    width: 12rem;
+}
+
+body > div.body-item.main > div.main-item.cs > table.cs-item.notice > thead > tr > th:not(:last-child) {
+    border-right: 0.0625rem solid #eaeaea;
+}
+
+body > div.body-item.main > div.main-item.cs > table.cs-item.notice > tbody > tr > td {
+    border-bottom: 0.0625rem solid #eaeaea;
+    padding: 0.75rem 1.75rem;
+    text-align: center;
+}
+
+body > div.body-item.main > div.main-item.cs > table.cs-item.notice > tbody > tr > td:nth-child(3) {
+    text-align: left;
+}
+
+body > div.body-item.main > div.main-item.cs > table.cs-item.notice > tbody > tr > td:nth-child(3) > a.notice-item.link {
+    cursor: pointer;
+}
+
+body > div.body-item.main > div.main-item.cs > table.cs-item.notice > tbody > tr > td:not(:last-child) {
+    border-right: 0.0625rem solid #eaeaea;
+}
+
+body > div.body-item.main > div.main-item.cs > table.cs-item.notice > tfoot > tr > td > div.notice-item.page {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+body > div.body-item.main > div.main-item.cs > table.cs-item.notice > tfoot > tr > td > div.notice-item.page > div.page-item {
+    width: 2.25rem;
+    height: 2.25rem;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body > div.body-item.main > div.main-item.cs > table.cs-item.notice > tfoot > tr > td > div.notice-item.page > div.page-item.selected {
+    background-color: #606060;
+    color: #ffffff;
+    cursor: default;
+}
+
+body > div.body-item.main > div.main-item.cs > table.cs-item.notice > tfoot > tr > td > div.notice-item.page > div.page-item.first {
+    background-image: url("../images/main.cs.notice.page.first.background-image.png");
+}
+
+body > div.body-item.main > div.main-item.cs > table.cs-item.notice > tfoot > tr > td > div.notice-item.page > div.page-item.prev {
+    background-image: url("../images/main.cs.notice.page.prev.background-image.png");
+}
+
+body > div.body-item.main > div.main-item.cs > table.cs-item.notice > tfoot > tr > td > div.notice-item.page > div.page-item.next {
+    background-image: url("../images/main.cs.notice.page.next.background-image.png");
+}
+
+body > div.body-item.main > div.main-item.cs > table.cs-item.notice > tfoot > tr > td > div.notice-item.page > div.page-item.last {
+    background-image: url("../images/main.cs.notice.page.last.background-image.png");
+}
+
+body > div.body-item.main > div.main-item.cs > table.cs-item.notice > tfoot > tr > td > div.notice-item.page > div.page-item:not(:last-child) {
+    margin-right: 0.25rem;
+}
+
+body > div.body-item.main > div.main-item.cs > table.cs-item.notice > tbody, thead, tfoot {
+
+}

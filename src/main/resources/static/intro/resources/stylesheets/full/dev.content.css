@@ -1,0 +1,139 @@
+body > div.body-item.content {
+    top: 50%;
+    left: 50%;
+    width: 62.5rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+body > div.body-item.content > div.content-item.slogan {
+    top: 1.5rem;
+    color: #ffffff;
+    cursor: default;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 6.25rem;
+    margin-bottom: 4rem;
+    opacity: 0;
+    position: relative;
+    transition-duration: 1000ms;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    user-select: none;
+}
+
+body > div.body-item.content > div.content-item.slogan.visible {
+    top: 0;
+    opacity: 1;
+}
+
+body > div.body-item.content > ul.content-item.menu {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    list-style: none;
+    position: relative;
+}
+
+body > div.body-item.content > ul.content-item.menu > li.menu-item {
+    top: -1.5rem;
+    align-items: flex-start;
+    background-color: #ffffffe0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    position: relative;
+    transition-duration: 1000ms;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    user-select: none;
+}
+
+body > div.body-item.content > ul.content-item.menu > li.menu-item.visible {
+    top: 0;
+    opacity: 1;
+}
+
+body > div.body-item.content > ul.content-item.menu > li.menu-item > * {
+    margin-left: 2rem;
+}
+
+body > div.body-item.content > ul.content-item.menu > li.menu-item > *:first-child {
+    margin-top: 1.75rem;
+}
+
+body > div.body-item.content > ul.content-item.menu > li.menu-item > *:not(:last-child) {
+    margin-bottom: 0.75rem;
+}
+
+body > div.body-item.content > ul.content-item.menu > li.menu-item > div.menu-item-title {
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+body > div.body-item.content > ul.content-item.menu > li.menu-item > div.menu-item-line {
+    width: 2rem;
+    height: 0.2125rem;
+    background-color: #f68121;
+}
+
+body > div.body-item.content > ul.content-item.menu > li.menu-item > div.menu-item-subtitle {
+    color: #f68121;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 0.425rem;
+}
+
+body > div.body-item.content > ul.content-item.menu > li.menu-item > div.menu-item-description {
+    color: #606060;
+    font-size: 1.05rem;
+    line-height: 120%;
+    margin-bottom: 1.25rem;
+}
+
+body > div.body-item.content > ul.content-item.menu > li.menu-item > div.menu-item-event {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 1.5rem;
+    margin-left: 0;
+    position: relative;
+}
+
+body > div.body-item.content > ul.content-item.menu > li.menu-item > div.menu-item-event > * {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body > div.body-item.content > ul.content-item.menu > li.menu-item > div.menu-item-event > div.menu-item-event-text {
+    align-items: flex-start;
+    background-color: #f68121;
+    color: #ffffff;
+    padding: 0.75rem 2rem;
+}
+
+body > div.body-item.content > ul.content-item.menu > li.menu-item > div.menu-item-event.no-text > div.menu-item-event-text {
+    opacity: 0;
+}
+
+body > div.body-item.content > ul.content-item.menu > li.menu-item > div.menu-item-event > div.menu-item-event-icon {
+    align-items: center;
+    padding: 0.35rem 2rem;
+}
+
+body > div.body-item.content > ul.content-item.menu > li.menu-item > div.menu-item-pointer {
+    width: 100%;
+    border-top: 0.0625rem solid #cacaca;
+    box-sizing: border-box;
+    font-size: 1.125rem;
+    margin: 0;
+    padding: 1rem 2rem;
+    position: relative;
+}

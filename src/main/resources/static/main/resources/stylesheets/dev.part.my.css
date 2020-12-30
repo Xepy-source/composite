@@ -1,0 +1,65 @@
+body > div.body-item.main > div.main-item.my > ul.my-item.menu {
+    align-items: center;
+    border: 0.0625rem solid #cacaca;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    margin-bottom: 2.5rem;
+    padding: 1.125rem 2rem;
+}
+
+body > div.body-item.main > div.main-item.my > div.my-item.title {
+    cursor: default;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+body > div.body-item.main > div.main-item.my > table.my-item.table {
+    width: 100%;
+    border-collapse: collapse;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.my > table.my-item.table > thead {
+    border-top: 0.0625rem solid #a0a0a0;
+}
+
+body > div.body-item.main > div.main-item.my > table.my-item.table > thead > tr {
+}
+
+body > div.body-item.main > div.main-item.my > table.my-item.table > thead > tr > th {
+    background-color: #fafafa;
+    border-top: 0.0625rem solid #cacaca;
+    border-bottom: 0.0625rem solid #eaeaea;
+    font-weight: 300;
+    padding: 0.75rem 0;
+    text-align: center;
+}
+
+body > div.body-item.main > div.main-item.my > table.my-item.table > thead > tr > th:not(:last-child) {
+    border-right: 0.0625rem solid #eaeaea;
+}
+
+body > div.body-item.main > div.main-item.my > table.my-item.table > tbody > tr > td {
+    border-bottom: 0.0625rem solid #eaeaea;
+    padding: 0.75rem 1.75rem;
+    text-align: center;
+}
+
+body > div.body-item.main > div.main-item.my > table.my-item.table > tbody > tr > td:nth-child(3) {
+    text-align: left;
+}
+
+body > div.body-item.main > div.main-item.my > table.my-item.table > tbody > tr > td:nth-child(3) > a.table-item.link {
+    cursor: pointer;
+}
+
+body > div.body-item.main > div.main-item.my > table.my-item.table > tbody > tr > td:not(:last-child) {
+    border-right: 0.0625rem solid #eaeaea;
+}
+
+body > div.body-item.main > div.main-item.my > table.my-item.table > tbody, thead, tfoot {
+
+}

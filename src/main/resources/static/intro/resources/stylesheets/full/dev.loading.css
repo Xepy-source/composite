@@ -1,0 +1,74 @@
+body > div.body-item.loading {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    pointer-events: none;
+    z-index: 9;
+}
+
+body > div.body-item.loading.visible {
+    pointer-events: all;
+}
+
+body > div.body-item.loading > div.loading-item.cover {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f68121;
+    opacity: 0;
+    position: fixed;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+
+body > div.body-item.loading.visible > div.loading-item.cover {
+    opacity: 1;
+}
+
+body > div.body-item.loading > div.loading-item.window {
+    top: calc(50% - 1.5rem);
+    left: 50%;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem 0.0625rem #50505075;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 0;
+    padding: 1.125rem;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+
+body > div.body-item.loading.visible > div.loading-item.window {
+    top: 50%;
+    opacity: 1;
+}
+
+body > div.body-item.loading > div.loading-item.window > img.window-item.image {
+    width: 2.25rem;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: anim-loading-window-image;
+    animation-play-state: paused;
+    animation-timing-function: linear;
+}
+
+body > div.body-item.loading.visible > div.loading-item.window > img.window-item.image {
+    animation-play-state: running;
+}
+
+@keyframes anim-loading-window-image {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,70 @@
+body > div.body-item.main > div.main-item.register-complete {
+    width: 36rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.register-complete > h1.register-complete-item.title {
+    cursor: default;
+    font-size: 2.25rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.register-complete > div.register-complete-item.step {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+body > div.body-item.main > div.main-item.register-complete > div.register-complete-item.step > div.step-item {
+    width: 0.55rem;
+    height: 0.55rem;
+    background-color: #cacaca;
+    border-radius: 50%;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.register-complete > div.register-complete-item.step > div.step-item.selected {
+    background-color: #a0a0a0;
+}
+
+body > div.body-item.main > div.main-item.register-complete > div.register-complete-item.step > div.step-item:not(:last-child) {
+    margin-right: 0.65rem;
+}
+
+body > div.body-item.main > div.main-item.register-complete > h2.register-complete-item.step {
+    cursor: default;
+    font-size: 1.75rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+body > div.body-item.main > div.main-item.register-complete > div.register-complete-item.message {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+body > div.body-item.main > div.main-item.register-complete > div.register-complete-item.buttons {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+    padding: 1rem 3rem;
+}
+
+body > div.body-item.main > div.main-item.register-complete > div.register-complete-item.buttons > input.buttons-item {
+    padding: 1rem 3rem;
+}
+
+body > div.body-item.main > div.main-item.register-complete > div.register-complete-item.buttons > input.buttons-item:not(:last-child) {
+    margin-right: 1.5rem;
+}

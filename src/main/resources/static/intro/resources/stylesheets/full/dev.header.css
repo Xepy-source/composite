@@ -1,0 +1,49 @@
+body > div.body-item.header {
+    top: 2.5rem;
+    left: 50%;
+    width: 62.5rem;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+body > div.body-item.header > a.header-item.logo {
+    width: 6.6875rem;
+    height: 3.1875rem;
+    background-image: url("../images/header.logo.background-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+body > div.body-item.header > div.header-item.spring {
+    flex: 1;
+}
+
+body > div.body-item.header > ul.header-item.menu {
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+body > div.body-item.header > ul.header-item.menu > li.menu-item {
+    cursor: pointer;
+}
+
+body > div.body-item.header > ul.header-item.menu > li.menu-item:not(:last-child) {
+    margin-right: 0.625rem;
+}
+
+body > div.body-item.header > ul.header-item.menu > li.menu-item > a:link,
+body > div.body-item.header > ul.header-item.menu > li.menu-item > a:visited {
+    color: inherit;
+    text-decoration: none;
+}
